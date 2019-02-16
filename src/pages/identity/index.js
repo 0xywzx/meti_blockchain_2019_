@@ -63,7 +63,7 @@ class Identity extends Component {
               <thead>
                 <tr>
                   <th className="border-top-0">
-                    <i className="fa fa-user mr-2" />Identities
+                    <i className="fa fa-user mr-2" />アイデンティティー
                     {!identities.length ? null : (
                       <a
                         href="#"
@@ -84,13 +84,13 @@ class Identity extends Component {
                     className="border-top-0 text-center"
                     style={{ width: 80 }}
                   >
-                    Addr
+                    アドレス
                   </th>
                   <th
                     className="border-top-0 text-center"
                     style={{ width: 80 }}
                   >
-                    Owner
+                    オーナー
                   </th>
                 </tr>
               </thead>
@@ -152,7 +152,7 @@ class Identity extends Component {
               <thead>
                 <tr>
                   <th>
-                    <i className="fa fa-certificate mr-2" />Claim Issuers
+                    <i className="fa fa-certificate mr-2" />認定者
                     {!certifiers.length ? null : (
                       <a
                         href="#"
@@ -235,7 +235,7 @@ class Identity extends Component {
               <thead>
                 <tr>
                   <th>
-                    <i className="fa fa-lock mr-2" />Claim Checkers
+                    <i className="fa fa-lock mr-2" />確認者
                     {!this.props.verifiers.length ? null : (
                       <a
                         href="#"
