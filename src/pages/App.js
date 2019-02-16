@@ -67,17 +67,9 @@ class App extends Component {
               className="navbar-brand mr-3"
               onClick={() => this.setState({ toggled: false })}
             >
-              ERC 725
+            オープン型 資格・履歴検証プラットフォーム
+            Open Verifiable Platform
             </Link>
-            <span className="navbar-text">
-              Demo implementation by
-              <a href="https://www.originprotocol.com">
-                <img
-                  style={{ height: 15, opacity: 0.5, verticalAlign: -2, marginLeft: 5 }}
-                  src="/images/origin-logo-dark.png"
-                />
-              </a>
-            </span>
             <button
               className="navbar-toggler"
               type="button"
@@ -135,22 +127,10 @@ class App extends Component {
             <Route component={Identity} />
           </Switch>
           <div className="footer">
-            <div className="powered-by">
-              <a href="https://www.originprotocol.com">
-                <img src="images/origin-logo-dark.png" />
-              </a>
-            </div>
             <div className="middle">
-              &copy;{' 2018 '}
               <a className="ml-1" href="https://www.originprotocol.com">
-                Origin Protocol
+                Special Thanks To Origin Protocol
               </a>
-            </div>
-            <div className="right">
-              <a href="https://github.com/OriginProtocol/identity-playground">
-                <i className="fa fa-lg fa-github" />
-              </a>
-              <Versions />
             </div>
           </div>
         </div>
@@ -186,7 +166,7 @@ require('react-styl')(`
     .btn-sm
       padding: 0.125rem 0.375rem
   .navbar
-    border-bottom: 1px solid #E5E9EF;
+    border-bottom: 1px solid #5E9EF;
   .navbar-light .navbar-text .dropdown-item.active,
   .navbar-light .navbar-text .dropdown-item:active
     color: #fff;
